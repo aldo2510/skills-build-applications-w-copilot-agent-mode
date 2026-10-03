@@ -1,0 +1,84 @@
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top left, rgba(70, 160, 135, 0.14), transparent 34rem),
+    #f6f8f7;
+}
+
+.app-header {
+  background: #103b34;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.app-nav {
+  background: #fff;
+  border-bottom: 1px solid #e3e9e6;
+  box-shadow: 0 0.25rem 0.75rem rgba(16, 59, 52, 0.04);
+}
+
+.app-nav .nav-link {
+  padding: 0.9rem 1rem;
+  color: #53635e;
+  font-weight: 600;
+}
+
+.app-nav .nav-link.active {
+  color: #13705e;
+}
+
+.app-content {
+  max-width: 1120px;
+}
+
+.page-heading .eyebrow {
+  color: #13705e;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.page-heading h1 {
+  margin: 0.25rem 0 0.5rem;
+  color: #193b34;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.collection-card {
+  overflow: hidden;
+  border: 1px solid #e3e9e6;
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 2rem rgba(16, 59, 52, 0.06);
+}
+
+.collection-card thead th {
+  color: #53635e;
+  background: #f3f7f5;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.collection-card td,
+.collection-card th {
+  padding: 1rem 1.1rem;
+}
